@@ -1,0 +1,23 @@
+:root{
+  --accent: #0b7ed0;
+  --bg:#f8fafc;
+  --text:#0b2135;
+}
+*{box-sizing:border-box}
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0; color:var(--text); background:var(--bg);
+}
+.container{ max-width:1000px; margin:0 auto; padding:1rem; }
+.site-header{ background:white; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+.site-header .container{ display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 1rem; }
+.site-header h1{ margin:0; font-size:1.25rem; color:var(--accent); }
+.site-header nav a{ margin-left:0.8rem; text-decoration:none; color:var(--text); font-weight:600; }
+.brand{ text-decoration:none; color:var(--accent); }
+.hero{ text-align:center; padding:4rem 1rem; }
+.hero h2{ font-size:2rem; margin:0.25rem 0; }
+.cta{ display:inline-block; margin-top:1rem; padding:0.6rem 1rem; border-radius:8px; text-decoration:none; font-weight:700; background:var(--accent); color:white; }
+.content{ padding:2rem 1rem; background:white; margin-top:1rem; border-radius:10px; box-shadow:0 6px 18px rgba(12,30,50,0.06); }
+.packages{ list-style:none; padding:0; }
+.packages li{ padding:0.6rem 0; border-bottom:1px solid #eef4f8; }
+.footer{ text-align:center; padding:1rem; color:#546b7a; font-size:0.9rem; }
